@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"selected_items":
+		[
+			[
+				"syn htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"sy htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn mard",
+				"Set Syntax: Markdown"
+			],
+			[
+				"package user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"synt mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"synt",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"jque",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"sni htm",
+				"Snippet: HTML - HTML foundation"
+			],
+			[
+				"sni html 5",
+				"Snippet: HTML - HTML5 shiv"
+			],
+			[
+				"snip html",
+				"Snippet: html"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"synt htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"pack ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sy css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/iri/Dropbox/B_bootstrap_EE/ee_demo/Site group/index.html",
+		"/Users/iri/Dropbox/B_bootstrap_EE/ee_demo/view.html",
+		"/Users/iri/Dropbox/B_bootstrap_EE/index.html",
+		"/Users/iri/Dropbox/B_bootstrap_EE/index.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/common/css/style.css",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/header-item.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/common/js/magicnav.js",
+		"/Volumes/Kukai II/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/page.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/header-page.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/page.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/index.php",
+		"/Users/iri/Downloads/クイックオーダー自動受付メール.txt",
+		"/Users/iri/Downloads/カゴラボ自動受付メール.txt",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/common/css/style_old.css",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/10_header_old.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/10_header.php",
+		"/Users/iri/Downloads/【ご提案】NBK_注文完了メール_FORMAT.txt",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/iri/Dropbox/R_RFPセミナー2013Feb/seimnarscript_130214.txt",
+		"/Users/iri/Dropbox/R_RFPセミナー2013Feb/seimnarscript_130212.txt",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/header-whatsnew.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/50_cagolab/header_bk.html",
+		"/Users/iri/Desktop/cagolab_nav.html",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/header-search.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/header.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/sidebar-itemcatarc.php",
+		"/Users/iri/Desktop/test.html",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/page-archiveall.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/taxonomy.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/taxonomy-itemcat.php",
+		"/Users/iri/Downloads/memo.txt",
+		"/Users/iri/Dropbox/R_RFPセミナー2013Feb/骨子.txt",
+		"/Users/iri/Dropbox/97_archives/F_富国生命/11_workshop/富国生命ワークショップ１詳細.txt",
+		"/Users/iri/Dropbox/99_misc/GATSBY.txt",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/80_colore/html/index.html",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/80_colore/html/index2.html",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/sidebar-whatsnewd.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/worklog_120205.txt",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/sidebar-page.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/sidebar-itemusearc.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/sidebar-whatsnew.php",
+		"/Users/iri/Dropbox/A_amitaHD/10_PM/80_minute/amigo_agenda_130208.txt",
+		"/Users/iri/Desktop/YOROSTORE.txt",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/sidebar-item.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/20_search.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/single-item.php",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/jquery.lightbox-0.5.css",
+		"/Users/iri/Dropbox/99_misc/mailtemplates/クリエイター向け支払い前倒し.txt",
+		"/Users/iri/Dropbox/M_文部科学省MEXT/40_Workshop/MEXT WORKSHOP 130131.txt",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/iri/Downloads/MarkdownEditor.tmTheme",
+		"/Users/iri/Dropbox/A_amitaHD/10_PM/memorandum/fra-me_memo.mdown",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/99_misc/NBK dropdown table",
+		"/Users/iri/Dropbox/A_amitaHD/10_PM/fra-me_memo.mdown",
+		"/Users/iri/Dropbox/99_misc/memo",
+		"/Users/iri/Dropbox/A_amitaHD/10_PM/AMITA PJ MEMO from RFP",
+		"/Users/iri/Dropbox/A_amitaHD/10_PM/AMITA Scope MTG Memo.mdown",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/iri/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/iri/Dropbox/B_bootstrap/index.html",
+		"/Users/iri/Desktop/coloreform.txt",
+		"/Users/iri/Desktop/index.html",
+		"/Users/iri/Desktop/colore/htaccess",
+		"/Users/iri/Desktop/colore/htpasswd",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/50_cagolab/cagolab_custom.css",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/style.css",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/theme_nippon_chuko/common/css/style_TEN.css",
+		"/Users/iri/Desktop/NBK_style_css_130122.diff",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/twentyten/style.css",
+		"/Users/iri/Dropbox/N_日本紐釦貿易/40_wordpress/theme/twentyten/sidebar-page.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^",
+			"color:#bd9e8b;",
+			"#bd9e8b",
+			"#62483a",
+			"ウッドクラフト",
+			"^",
+			"/item/itemcat/.*\"",
+			"dd>",
+			"dl>",
+			"dl",
+			"current_page_ancestor",
+			"current",
+			"_blank",
+			"▶",
+			"alt",
+			"8",
+			"ul",
+			"8",
+			"catalog",
+			"info",
+			"　- ",
+			"・",
+			"	",
+			"tmtheme",
+			"$",
+			"1",
+			"@",
+			"http://www.nippon-chuko.co.jp",
+			"</li>",
+			"に含まれる投稿をすべて表示",
+			"title",
+			"<li",
+			"li",
+			"<li class=\"cat-item cat-item-176\"><a href=\"http://www.nippon-chuko.co.jp/item/itemcat/oshibana/\" title=\"おし花 に含まれる投稿をすべて表示\">おし花</a>\n",
+			"に含まれる投稿をすべて表示",
+			"title",
+			"<li",
+			"tag",
+			"close ",
+			"order_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"- ",
+			"color:#62483a;",
+			"#bd9e8b",
+			"□",
+			"/shop/products/list1.html\"",
+			"li>",
+			"ul>",
+			"ul",
+			"current-cat",
+			"\\n",
+			"¥n",
+			"8",
+			"	",
+			"",
+			"  ",
+			"¥s",
+			"¥t",
+			"/item/itemuse/",
+			"/item/itemcat/",
+			"\n",
+			"  		\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true
+}

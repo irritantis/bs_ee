@@ -1,0 +1,16 @@
+{embed="site/header"}
+
+      <section class="row">
+        <div class="span8">
+          <div class="newsarea">
+          {exp:channel:entries channel="news" limit="1" }
+          <h2>{title}</h2>
+            <img src="{news_thumbnail}" width="300" alt="{news_title}">
+            <p class="date">{news_date}</p>
+            {news_description}
+            <p class="btn"><a href="{news_ext_url}">{news_ext_url}</a>
+          </div>
+          {/exp:channel:entries}
+        </div>
+
+{embed="site/footer"}

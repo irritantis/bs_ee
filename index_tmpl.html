@@ -1,0 +1,31 @@
+{embed="site/header"}
+
+      <section class="row">
+        <div class="span8">
+          <div class="newsarea">
+          <h2>新着情報</h2>
+          {exp:channel:entries channel="news" limit="2" dynamic="no"}
+          <div class="newsentry">
+            <img src="{news_thumbnail}" width="300" alt="{news_title}">
+            <p class="date">{news_date format="%Y %m %d"}</p>
+            <p class="title"><span class="label label-warning">重要</span>
+              {if news_ext_url != ''}
+              <a href="{news_ext_url}" target="_blank">{title}<i class="icon-plane"></i></a>
+              {if:else}
+              <a href="{title_permalink='news/view'}">{title}</a>
+              {/if}
+            </p>
+            <br clear="both">
+          </div>
+          {/exp:channel:entries}
+          <p style="text-align:right;"><a href="{path='news/index'}"><button class="btn">一覧へ<i class="icon-leaf"></i></button></a></p>
+        </div>
+        <hr />
+          <div class="testimonial">
+            <h2>今週の言葉（毎週月曜日更新）</h2>
+            <blockquote>常に原理原則に基づいて判断し、行動しなければならない。原理原則に基づくということは、人間社会の道徳、倫理といわれるものを基準として、人間として正しいものを正しいままに貫いていこうということだ。人間としての道理に基づいた判断であれば、時間や空間を超えて、どのような状況においても受け入れられる。</blockquote>
+            <p><a href="">一覧へ</a></p>
+          </div>
+        </div>
+
+{embed="site/footer"}

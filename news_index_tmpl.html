@@ -1,0 +1,25 @@
+{embed="site/header"}
+
+      <section class="row">
+        <div class="span8">
+          <div class="newsarea">
+          <h2>新着情報一覧</h2>
+          {exp:channel:entries channel="news"}
+          <div class="newsentry">
+            <img src="{news_thumbnail}" width="300" alt="{news_title}">
+            <p class="date">{news_date format="%Y %m %d"}</p>
+            <p class="title"><span class="label label-warning">重要</span>
+              {if news_ext_url != ''}
+              <a href="{news_ext_url}" target="_blank">{title}<i class="icon-plane"></i></a>
+              {if:else}
+              <a href="{title_permalink='news/view'}">{title}</a>
+              {/if}
+            </p>
+            <br clear="both">
+          </div>
+          {/exp:channel:entries}
+        </div>
+
+    </div>
+
+{embed="site/footer"}

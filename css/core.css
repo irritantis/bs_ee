@@ -1,0 +1,110 @@
+/* Core style for portfolio sample site */
+/* by Ryan Irelan Wednesday; February 9, 2011 */
+/* ExpressionEngine Training Materials: http://mijingo.com */
+
+body {
+	background-color: #000;
+}
+
+a {
+	color:#ccc;
+}
+
+a:hover {
+	color:#56A0D3;
+}
+
+.container {
+	background-color:#333;
+	padding-left:25px;
+	color:#fff;
+	padding-bottom:25px;
+}             
+
+h1 {
+	color:#56A0D3;
+}
+
+h1 a {
+	color:#56A0D3;
+	text-decoration:none;
+}   
+
+h1 a:hover {
+	color:#555;
+}
+
+h2, h3, h5 {
+	color: #fff;
+}
+
+h2 {
+	font-size:125%;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:#777;
+}      
+
+h3 {
+	font-size:225%;
+}
+
+h4 {
+	color: #56A0D3;
+}      
+
+
+#header {
+	padding-top:25px;
+}
+
+#content {
+	border-right-color:#555;
+	padding-top:25px;
+}
+
+#featured-site, #portfolio-site {
+	width:600px;
+	border-bottom:1px solid #555;
+}
+
+#additional {
+	padding-top:25px;
+}
+
+#additional ul {
+	list-style-type:none;
+	padding:0;
+}
+
+#additional ul#testimonials li {
+	margin-top:15px;
+	font-size:125%;
+}
+
+#previous-work {
+	margin-top:25px;
+}
+#previous-work ul {
+	list-style-type:none;
+	padding:0;
+}
+
+#previous-work ul li {
+	float:left;
+	display:block;
+	margin-right:25px;
+	width:190px;
+}
+
+#previous-work ul li.last {
+	margin-right:0;
+}
+
+
+#footer {
+	height:100px;
+	margin-top:25px;
+	color:#777;
+}
+

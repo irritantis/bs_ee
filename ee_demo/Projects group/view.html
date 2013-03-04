@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Appleseed Design Portfolio - Homepage</title>
+	<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="/css/core.css" type="text/css" media="screen, projection">
+
+	<!--[if lt IE 8]>
+	  <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+</head>
+<body id="view-page">
+	<div class="container">
+		<div id="header" class="span-24 last">
+			<h1><a href="/">Appleseed Design Portfolio</a></h1>
+			<h2>The latest work from Johnny Appleseed</h2>
+		</div>                
+		<div id="content" class="span-17 colborder">
+		<div id="portfolio-site">
+		{exp:channel:entries channel="projects" limit="1"}
+		<h3>{title}</h3>
+		<a href="{project_url}"><img src="{project_image}" alt="{title}" /></a>
+		{project_description}
+		<p><a href="{project_url}">Visit the Site</a></p>
+		{/exp:channel:entries}
+		</div>
+
+		</div>
+		<div id="additional" class="span-6 last">
+			<ul id="subnav">
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Availability</a></li>
+			</ul>
+			
+			<h5>Testimonials</h5>         
+			<ul id="testimonials">
+				<li>&#8220;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquam.</em>&#8221; &mdash;<a href="">Bob Smith</a></li>
+				<li>&#8220;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquam.</em>&#8221; &mdash;<a href="">Bob Smith</a></li>
+				<li>&#8220;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquam.</em>&#8221; &mdash;<a href="">Bob Smith</a></li>
+
+			</ul>
+		</div>			
+		<div id="footer" class="span-15">
+			<p>Johnny Appleseed Design is a fictional design studio. Any coincidental relationship to an actual design studio is, 	well, a coincidence. All screenshots are used with permission.</p> 
+				
+				<p>&copy; 2011 <a href="http://mijingo.com">Mijingo, LLC</a></p>
+		</div>
+		
+	</div>
+</body>
+</html>

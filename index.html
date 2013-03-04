@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head lang="ja">
+        <meta charset=utf-8>
+        <meta name=description content="">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <title>Kazuo meets bootstrap</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+        <link rel=author href="humans.txt">
+    </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a href="/"><img src="/img/kazuo.jpg" alt="kazuo" class="img-polaroid kazuo"></a>
+        <nav>
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="">プロフィール</a></li>
+            <li><a href="">年譜</a></li>
+            <li><a href="">データファイル</a></li>
+            <li><a href="">経営哲学</a></li>
+            <li><a href="">社会貢献活動</a></li>
+            <li><a href="">出版物のご案内</a></li>
+            <li><a href="">フォトライブラリ</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="row">
+        <div class="span8">
+          <div class="newsarea">
+          <h2>新着情報</h2>
+          {exp:channel:entries channel="news" limit="2" dynamic="no"}
+          <div class="newsentry">
+            <img src="{news_thumbnail}" width="300" alt="{news_title}">
+            <p class="date">{news_date}</p>
+            <p class="title"><span class="label label-warning">重要</span><a href="{title_permalink='news/view'}">{title}</a></p>
+            <br clear="both">
+          </div>
+          {/exp:channel:entries}
+        </div>
+          <div class="testimonial">
+            <h2>今週の言葉（毎週月曜日更新）</h2>
+            <blockquote>常に原理原則に基づいて判断し、行動しなければならない。原理原則に基づくということは、人間社会の道徳、倫理といわれるものを基準として、人間として正しいものを正しいままに貫いていこうということだ。人間としての道理に基づいた判断であれば、時間や空間を超えて、どのような状況においても受け入れられる。</blockquote>
+            <p><a href="">一覧へ</a></p>
+          </div>
+        </div>
+        <div class="span4">
+          <nav id="localnav">
+            <ul class="nav nav-list">
+              <li class="nav-header">稲盛和夫の経営哲学</li>
+              <li><a href=""><i class="icon-globe"></i>フィロソフィキーワード</a></li>
+              <li><a href="">稲盛経営12カ条</a></li>
+              <li><a href="">アメーバ経営について</a></li>
+              <li><a href="">稲盛会計学について</a></li>
+            </ul>
+          <p class="btn btn-success">写真でたどる系譜</p>
+          </nav>
+        <!-- /.span4 --></div>
+      <!-- /.row --></section>
+
+    <footer>
+      <address>&copy; loftwork karasuma 2013</address>
+    </footer>
+    <!-- /.container --></div>
+
+  	<script src="http://code.jquery.com/jquery-latest.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>
